@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>titlecase.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Shell Script File</key>
+			<string>titlecase.pl</string>
+			<key>Title</key>
+			<string>TitleCase</string>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>uppercase.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Shell Script File</key>
+			<string>uppercase.pl</string>
+			<key>Title</key>
+			<string>UpperCase</string>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>lowercase.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Shell Script File</key>
+			<string>lowercase.pl</string>
+			<key>Title</key>
+			<string>LowerCase</string>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>screaming_snakecase.png</string>
+			<key>Shell Script File</key>
+			<string>screaming_snakecase.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>Screaming SnakeCase</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+	    <dict>
+			<key>Image File</key>
+			<string>snakecase.png</string>
+			<key>Shell Script File</key>
+			<string>snakecase.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>SnakeCase</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>screaming_kebabcase.png</string>
+			<key>Shell Script File</key>
+			<string>screaming_kebabcase.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>Screaming KebabCase</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+	    <dict>
+			<key>Image File</key>
+			<string>kebabcase.png</string>
+			<key>Shell Script File</key>
+			<string>kebabcase.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>KebabCase</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+    <dict>
+			<key>Image File</key>
+			<string>camelcase.png</string>
+			<key>Shell Script File</key>
+			<string>camelcase.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>CamelCase</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+    <dict>
+			<key>Image File</key>
+			<string>pascalcase.png</string>
+			<key>Shell Script File</key>
+			<string>pascalcase.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>PascalCase</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+    <dict>
+			<key>Image File</key>
+			<string>towords.png</string>
+			<key>Shell Script File</key>
+			<string>towords.pl</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/perl</string>
+			<key>Title</key>
+			<string>To Words</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Convert selected text between TitleCase, UpperCase, LowerCase, Screaming SnakeCase, SnakeCase, Screaming KebabCase, KebabCase, CamelCase, PascalCase, and Words</string>
+	<key>Extension Identifier</key>
+	<string>com.rjf.popclip.extension.case-swapper</string>
+	<key>Extension Name</key>
+	<string>Case-Swapper</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+= PopClip Case Swapper
+rjf89
+:experimental:
+:source-highlighter: prettify
+:data-uri:
+:icons: font
+
+== PopClip Case Swapper
+
+Extension for https://pilotmoon.com/popclip/[PopClip] to convert between TitleCase, UpperCase, LowerCase, Screaming SnakeCase, SnakeCase, Screaming KebabCase, KebabCase, CamelCase, PascalCase, and Words
+
+.Conversion Examples
+|===
+|                                                                    s| pass:[<u>TitleCase<u>]                                              s| pass:[<u>UpperCase</u>] 
+| `const LAZY_LOAD-STATUS = { LoadingFinished: 1, loadedNow: 2 }`     | `Const Lazy_Load-Status = { Loadingfinished: 1, Loadednow: 2 }`      | `CONST LAZY_LOAD-STATUS = { LOADINGFINISHED: 1, LOADEDNOW: 2 }`
+|                                                                    s| pass:[<u>LowerCase</u>]                                             s| pass:[<u>Screaming SnakeCase</u>]  
+|                                                                     | `const lazy_load-status = { loadingfinished: 1, loadednow: 2 }`      | `CONST_LAZY_LOAD_STATUS = { LOADING_FINISHED: 1, LOADED_NOW: 2 }` 
+|                                                                    s| pass:[<u>SnakeCase</u>]                                             s| pass:[<u>Screaming KebabCase</u>]
+|                                                                     | `const_lazy_load_status = { loading_finished: 1, loaded_now: 2 }`      | `CONST-LAZY-LOAD-STATUS = { LOADING-FINISHED: 1, LOADED-NOW: 2 }` 
+|                                                                    s| pass:[<u>KebabCase</u>]                                             s| pass:[<u>CamelCase</u>]
+|                                                                     | `const-lazy-load-status = { loading-finished: 1, loaded-now: 2 }`      | `constLazyLoadStatus = { loadingFinished: 1, loadedNow: 2 }` 
+|                                                                    s| pass:[<u>PascalCase</u>]                                            s| pass:[<u>Words</u>] 
+|                                                                     | `ConstLazyLoadStatus = { LoadingFinished: 1, LoadedNow: 2 }`         | `const LAZY LOAD STATUS = { LOADING: 1, LOADED: 2 }` 
+|===
