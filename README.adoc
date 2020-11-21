@@ -22,3 +22,9 @@ Extension for https://pilotmoon.com/popclip/[PopClip] to convert between TitleCa
 |                                                                    s| pass:[<u>PascalCase</u>]                                            s| pass:[<u>Words</u>] 
 |                                                                     | `ConstLazyLoadStatus = { LoadingFinished: 1, LoadedNow: 2 }`         | `const LAZY LOAD STATUS = { LOADING: 1, LOADED: 2 }` 
 |===
+
+== To Install
+- Install Perl (you can use `brew install perl`)
+- Download the repo
+- Change the folder name to include `.popclipext` as a file extension
+- Install as normal by double tapping the extension file
